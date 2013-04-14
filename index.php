@@ -12,13 +12,7 @@
 	
 	<div class="load_images">
 		
-	<div src="" alt="" class="main inicio"></div>
-	<div src="" alt="" class="main bienvenida"></div>
-	<div src="" alt="" class="main contacto"></div>
-	<div src="" alt="" class="main cotizacion"></div>
-	<div src="" alt="" class="main instalaciones"></div>
-	<div src="" alt="" class="main servicios"></div>
-	<div src="" alt="" class="main paquetes"></div>
+ 
 
 
 
