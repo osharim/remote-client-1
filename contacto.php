@@ -14,7 +14,7 @@
 
 		<?php include "assets.php"; ?>
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css?v=1.0">
 
 <body>
 	<section class="main contacto">
