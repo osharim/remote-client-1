@@ -10,9 +10,9 @@
 	<title>Miiluma | Bienvenido</title>
 </head>
 
-	<script src="js/jquery.js"></script>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
+	<?php include "assets.php"; ?>
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
 
 <body>
 	<section class="main inicio">
@@ -27,5 +27,6 @@
 
 
 	</section>
+ 
 </body>
 </html>

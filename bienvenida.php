@@ -12,7 +12,7 @@
 	<title>Miiluma | Bienvenida</title>
 </head>
 
-	<script src="js/jquery.js"></script>
+	<?php include "assets.php"; ?>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 
