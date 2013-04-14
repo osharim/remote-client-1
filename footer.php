@@ -5,7 +5,19 @@
 			En cada visita , adquirirá experiencias inolvidables dentro de un entorno único e inigualable.
 
 	</nav>
-	<nav class="certificade"></nav>
+	<nav class="certificade partner">
+		
+	<ul>
+		<li><img width="180"  class="normal" src="img/resources/LogoCertificadoRegalo.png" alt="Certificado!"></li>
+		<li><img  width="180" class="normal" src="img/resources/LogoEMail.png" alt="Email"></li>
+
+		<li><img width="20" class="small" src="img/resources/LogoFacebook.png" alt="Facebook"></li>
+		<li><img width="20" class="small" src="img/resources/LogoTwitter.png" alt="Twitter"></li>
+		<li><img width="20" class="small" src="img/resources/LogoTrip.png" alt="Trip"></li>
+		 
+	</ul>
+
+	</nav>
  
 </footer>
 

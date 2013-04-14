@@ -141,11 +141,12 @@ background: url("../img/resources/Logotipo_Miiluma.png") no-repeat scroll 0 0 tr
 
 
 .message_nav {
-    background: none repeat scroll 0 0 rgba(216,90,39,.9);
+  background: none repeat scroll 0 0 rgba(216, 90, 39, 0.9);
     color: white;
+    font-weight: bold;
+    height: 49px;
     padding: 27px;
-    width: 424px;
-       font-weight: bold;
+    width: 32%;
 
 }
 
@@ -165,4 +166,41 @@ footer{
     height: 96px;
     position: absolute;
     width: 100%;
+}
+
+
+.partner{
+
+ background: none repeat scroll 0 0 rgba(244, 179, 99, 0.9);
+    border-radius: 4px 4px 0 0;
+    color: #333333;
+    display: inline-block;
+    float: left;
+    height: 104px;
+    margin-left: 1%;
+    padding: 1%;
+    width: 60%;
+
+}
+
+.certificade.partner li {
+   float: left;
+    margin-left: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.certificade.partner li img.small{
+     margin-top: 16px;
+}
+
+
+.certificade.partner li img.normal{
+     margin-top: 4px;
+}
+
+
+.certificade.partner > ul {
+    float: right;
 }
