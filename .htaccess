@@ -1,0 +1,10 @@
+RewriteEngine On
+
+ 
+RewriteRule ^/$ index.php [L] # ------------- URL DE INICIO
+RewriteRule ^bienvenida/$ bienvenida.php [L] # ------------- URL DE INICIO
+RewriteRule ^contacto/$ contacto.php [L] # ------------- URL DE INICIO
+RewriteRule ^cotizacion/$ cotizacion.php [L] # ------------- URL DE INICIO
+RewriteRule ^instalaciones/$ instalaciones.php [L] # ------------- URL DE INICIO
+RewriteRule ^paquetes/$ paquetes.php [L] # ------------- URL DE INICIO
+RewriteRule ^servicios/$ servicios.php [L] # ------------- URL DE INICIO

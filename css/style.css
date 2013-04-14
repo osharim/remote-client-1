@@ -1,0 +1,154 @@
+body{
+
+	font-size: 12px;
+    font-family: 'helvetica'
+}
+
+
+.languaje.english{
+    
+    background: url("../img/resources/Menu_bandera_EUA.png") no-repeat scroll 0 0 transparent;
+    content: " ";
+    height: 41px;
+    position: absolute;
+    right: 27px;
+    top: 11px;
+    width: 46px;
+}
+
+ 
+/*-------------------------------------------------------------------------------------------------*/
+
+.main.inicio{
+
+
+	background:url("../img/resources/Bg_inicio.jpg") no-repeat scroll 0 -91px / 100% auto transparent;
+}
+
+.main.bienvenida{
+    background: url("../img/resources/Bg_bienvenida.jpg") no-repeat scroll 0 -91px / 100% auto transparent;
+
+}
+
+.main.contacto{
+    background: url("../img/resources/Bg_contacto.jpg") no-repeat scroll 0 -91px / 100% auto transparent;
+
+}
+
+.main.cotizacion{
+    background: url("../img/resources/Bg_cotizacion.jpg") no-repeat scroll 0 -91px / 100% auto transparent;
+
+}
+
+.main.instalaciones{
+    background: url("../img/resources/Bg_instalaciones.jpg") no-repeat scroll 0 -91px / 100% auto transparent;
+
+}
+
+.main.servicios{
+    background: url("../img/resources/Bg_servicios.jpg") no-repeat scroll 0 -91px / 100% auto transparent;
+
+}
+
+.main.paquetes{
+    background: url("../img/resources/Bg_paquetes.jpg") no-repeat scroll 0 -91px / 100% auto transparent;
+
+}
+ 
+
+/* ---------------------------------------------------------------- bg sections*/
+
+
+.main{
+	 bottom: 0;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+/* ----------------------------------------------------------------------- menu.php */
+
+.logo{
+
+background: url("../img/resources/Logotipo_Miiluma.png") no-repeat scroll 0 0 transparent;
+    height: 116px;
+    width: 461px;
+    float: left;
+}
+
+
+.menu  ul {
+ background: url("../img/resources/Menu_Linea.png") no-repeat scroll center bottom / 100% auto transparent;
+    float: right;
+    padding-bottom: 74px;
+    padding-top: 57px;
+}
+
+
+
+.menu  ul li {
+    float: left;
+ 	font-size: 12px;
+   font-weight: bold;
+    padding: 1px 22px;
+ 
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+ 
+}
+
+.menu ul li a:hover , .button_actived{
+
+        color: #D85A27 !important;
+        text-shadow:1px 1px 4px rgba(255,255,255,.9);
+}
+
+
+.menu ul li a:active  {
+
+        color: #CB7E36 ;
+        text-shadow: 0 0;
+}
+
+
+.menu a{
+	color: rgba(255,255,255,.9);
+	text-shadow:1px 1px rgba(100,100,100,.5);
+}
+
+
+
+
+
+/*-------------------------------------------------------------------------footer.php*/
+
+
+.message_nav {
+    background: none repeat scroll 0 0 #D85A27;
+    color: white;
+    padding: 27px;
+    width: 424px;
+       font-weight: bold;
+
+}
+
+.message{
+
+
+}
+
+footer nav{
+
+
+	float: left;
+}
+
+footer{
+    bottom: 0;
+    height: 96px;
+    position: absolute;
+    width: 100%;
+}
