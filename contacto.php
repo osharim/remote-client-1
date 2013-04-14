@@ -9,7 +9,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Contacto</title>
+	<title>Miiluma | Contacto</title>
 </head>
 
 	<script src="js/jquery.js"></script>

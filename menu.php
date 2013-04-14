@@ -1,7 +1,7 @@
 
 			<section class="logo"> <a href="./"></a></section>
 			<nav class="menu">
-				<nav class="languaje english"></nav>
+				<nav class="languaje "> <img class="english" src="img/resources/Menu_bandera_EUA.png" alt="English"  ></nav>
 				<ul>
 					<li><a href="./" class="<?php if(isset($actived_button_inicio) && $actived_button_inicio){?> button_actived <?php } ?>">Inicio</a> </li>
 					<li><a href="bienvenida" class="<?php if(isset($actived_button_bienvenida) && $actived_button_bienvenida){?> button_actived <?php } ?>">Bienvenida</a> </li>

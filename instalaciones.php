@@ -9,7 +9,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Instalaciones</title>
+	<title>Miiluma | Instalaciones</title>
 </head>
 
 	<script src="js/jquery.js"></script>

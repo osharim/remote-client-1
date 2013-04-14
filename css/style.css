@@ -1,21 +1,30 @@
 body{
 
 	font-size: 12px;
-    font-family: 'helvetica'
+    font-family: 'helvetica';
+    overflow:hidden;
 }
 
 
-.languaje.english{
+.languaje img.english{
     
-    background: url("../img/resources/Menu_bandera_EUA.png") no-repeat scroll 0 0 transparent;
-    content: " ";
-    height: 41px;
-    position: absolute;
-    right: 27px;
-    top: 11px;
-    width: 46px;
+     position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor:  pointer;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    opacity: .8;
+  
 }
 
+.languaje:hover{
+    
+ -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+ 
+}
  
 /*-------------------------------------------------------------------------------------------------*/
 
@@ -60,7 +69,7 @@ body{
 
 
 .main{
-	 bottom: 0;
+     bottom: 0;
     height: 100%;
     position: absolute;
     right: 0;
@@ -73,7 +82,7 @@ body{
 .logo{
 
 background: url("../img/resources/Logotipo_Miiluma.png") no-repeat scroll 0 0 transparent;
-    height: 116px;
+    height: 154px;
     width: 461px;
     float: left;
 }
@@ -90,10 +99,9 @@ background: url("../img/resources/Logotipo_Miiluma.png") no-repeat scroll 0 0 tr
 
 .menu  ul li {
     float: left;
- 	font-size: 12px;
-   font-weight: bold;
+    font-size: 12px;
+    font-weight: bold;
     padding: 1px 22px;
- 
     font-size: 14px;
     color: white;
     font-weight: bold;
@@ -103,7 +111,7 @@ background: url("../img/resources/Logotipo_Miiluma.png") no-repeat scroll 0 0 tr
 .menu ul li a:hover , .button_actived{
 
         color: #D85A27 !important;
-        text-shadow:1px 1px 4px rgba(255,255,255,.9);
+    text-shadow:1px 1px 4px rgba(255,255,255,.9);
 }
 
 
@@ -127,7 +135,7 @@ background: url("../img/resources/Logotipo_Miiluma.png") no-repeat scroll 0 0 tr
 
 
 .message_nav {
-    background: none repeat scroll 0 0 #D85A27;
+    background: none repeat scroll 0 0 rgba(216,90,39,.9);
     color: white;
     padding: 27px;
     width: 424px;

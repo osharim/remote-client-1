@@ -4,12 +4,12 @@
 
  ?>
 
- 
+
 <!doctype html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Bienvenida</title>
+	<title>Miiluma | Bienvenida</title>
 </head>
 
 	<script src="js/jquery.js"></script>

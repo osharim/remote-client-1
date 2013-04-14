@@ -9,7 +9,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Paquetes</title>
+	<title>Miiluma | Paquetes</title>
 </head>
 
 	<script src="js/jquery.js"></script>

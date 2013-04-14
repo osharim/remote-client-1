@@ -7,7 +7,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Miiluma - Bienvenido</title>
+	<title>Miiluma | Bienvenido</title>
 </head>
 
 	<script src="js/jquery.js"></script>
