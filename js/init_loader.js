@@ -1,0 +1,4 @@
+$(document).ready(function(){
+
+
+	$("body").queryLoader2({barColor:"#fff",backgroundColor:"#000",percentage:true,barHeight:1,deepSearch:true,completeAnimation:"fade",onComplete:function(){setTimeout(function(){element=new Object;element[0]="#ContainerHead";element[1]="#housePrev";element[2]="#houseNext";element[3]="#annslider";element[4]="#structHistory";element[5]="#wrapper";element[6]="#containersearch";element[7]="#footerInfo";element[8]=".ticker";$.each(element,function(a){$(element[a]).fadeTo("slow",1)})},1100);$("body").animate({opacity:"1"},1300);setTimeout(function(){$("#housePrev").addClass("Uirow iconRow up").fadeIn("slow");$("#houseNext").addClass("Uirow iconRow down");new fx(document.getElementById("wrapper"),-210,-10,"marginTop","px",senoidal,900,false);mCustomScrollbars()},2700)}})})
