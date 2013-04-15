@@ -1,4 +1,5 @@
-
+	<article>
+		
 			<section class="logo"> <a href="./"></a></section>
 			<nav class="menu">
 				<nav class="languaje "> <img class="english" src="img/resources/Menu_bandera_EUA.png" alt="English"  ></nav>
@@ -12,3 +13,5 @@
 					<li><a href="cotizacion" class="<?php if(isset($actived_button_cotizacion) && $actived_button_cotizacion){?> button_actived <?php } ?>">Cotización</a> </li>
 				</ul>
 			</nav>
+		
+	</article>

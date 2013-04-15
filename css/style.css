@@ -105,23 +105,19 @@ background: url("../img/resources/Logotipo_Miiluma.png") no-repeat scroll 0 0 tr
     padding-top: 57px;
 }
 
-
-
-.menu  ul li {
-    float: left;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 1px 22px;
-    font-size: 14px;
+.menu ul li {
     color: white;
-    font-weight: bold;
- 
+    float: left;
+    font-size: 15px;
+    padding: 0 22.3px;
 }
 
 .menu ul li a:hover , .button_actived{
 
-        color: #D85A27 !important;
-    text-shadow:1px 1px 4px rgba(255,255,255,.9);
+border-bottom: 3px solid #D85A27;
+    color: #D85A27 !important;
+    padding-bottom: 12px;
+    text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.9) !important;
 }
 
 
@@ -137,10 +133,32 @@ background: url("../img/resources/Logotipo_Miiluma.png") no-repeat scroll 0 0 tr
 	text-shadow:1px 1px rgba(100,100,100,.5);
 }
 
+ 
 
 
+/* propuesta */
 
 
+article {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
+    float: left;
+    height: auto;
+    padding-bottom: 13px;
+    width: 100%;
+}
+
+.menu ul {
+    background: transparent;
+    float: right;
+    padding-bottom: 52px;
+    padding-top: 61px;
+}
+
+
+.menu a {
+    color: rgba(0, 0, 0, 0.9);
+    text-shadow:0 0;
+}
 /*-------------------------------------------------------------------------footer.php*/
 
 
