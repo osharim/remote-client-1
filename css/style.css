@@ -1,13 +1,12 @@
 @import url(font.css);
+ 
+@import url(iphone.css)  (min-width:0px) and (max-width:640px); /* iphone*/
+
+@import url(tablet.css)  (min-width:641px) and (max-width:999px);/* tablet*/
+
+@import url(pc.css)  (min-width:1000px) and (max-width:3024px); /* PC */
 
 
-
-body{
-
-	font-size: 12px;
-    font-family: 'osanslight';
-    overflow:hidden;
-}
 
 
 .languaje img.english{
@@ -36,66 +35,11 @@ body{
     display: none;
 }
 
-/*-------------------------------------------------------------------------------------------------*/
 
-.main.inicio{
-
-
-	background:url("../img/resources/Bg_inicio.jpg") no-repeat scroll 0 -91px / 100% auto transparent;
-}
-
-.main.bienvenida{
-    background: url("../img/resources/Bg_bienvenida.jpg") no-repeat scroll 0 -91px / 100% auto transparent;
-
-}
-
-.main.contacto{
-    background: url("../img/resources/Bg_contacto.jpg") no-repeat scroll 0 -91px / 100% auto transparent;
-
-}
-
-.main.cotizacion{
-    background: url("../img/resources/Bg_cotizacion.jpg") no-repeat scroll 0 -91px / 100% auto transparent;
-
-}
-
-.main.instalaciones{
-    background: url("../img/resources/Bg_instalaciones.jpg") no-repeat scroll 0 -91px / 100% auto transparent;
-
-}
-
-.main.servicios{
-    background: url("../img/resources/Bg_servicios.jpg") no-repeat scroll 0 -91px / 100% auto transparent;
-
-}
-
-.main.paquetes{
-    background: url("../img/resources/Bg_paquetes.jpg") no-repeat scroll 0 -91px / 100% auto transparent;
-
-}
- 
-
-/* ---------------------------------------------------------------- bg sections*/
-
-
-.main{
-     bottom: 0;
-    height: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
-}
 
 /* ----------------------------------------------------------------------- menu.php */
 
-.logo{
 
-background: url("../img/resources/Logotipo_Miiluma.png") no-repeat scroll 0 0 transparent;
-    height: 154px;
-    width: 461px;
-    float: left;
-}
 
 .pos_init_logo{
      left:50% ;
@@ -104,27 +48,7 @@ background: url("../img/resources/Logotipo_Miiluma.png") no-repeat scroll 0 0 tr
     position: absolute;
 }
 
-.menu  ul {
- background: url("../img/resources/Menu_Linea.png") no-repeat scroll center bottom / 100% auto transparent;
-    float: right;
-    padding-bottom: 52px;
-    padding-top: 57px;
-}
 
-.menu ul li {
-    color: white;
-    float: left;
-    font-size: 15px;
-    padding: 0 22.3px;
-}
-
-.menu ul li a:hover , .button_actived{
-
-border-bottom: 3px solid #D85A27;
-    color: #D85A27 !important;
-    padding-bottom: 12px;
-    text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.9) !important;
-}
 
 
 .menu ul li a:active  {
@@ -140,44 +64,8 @@ border-bottom: 3px solid #D85A27;
 }
 
  
-
-
-/* propuesta
-
-
-article {
-    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
-    float: left;
-    height: auto;
-    padding-bottom: 13px;
-    width: 100%;
-}
-
-.menu ul {
-    background: transparent;
-    float: right;
-    padding-bottom: 52px;
-    padding-top: 61px;
-}
-
-
-.menu a {
-    color: rgba(0, 0, 0, 0.9);
-    text-shadow:0 0;
-}
- */
-/*-------------------------------------------------------------------------footer.php*/
-
-
-.message_nav {
-  background: none repeat scroll 0 0 rgba(216, 90, 39, 0.9);
-    color: white;
-    font-weight: bold;
-    height: 49px;
-    padding: 27px;
-    width: 32%;
-
-}
+ 
+ 
 
 .spacing-icon{
     margin-right: 50px;
@@ -189,34 +77,8 @@ footer nav{
 	float: left;
 }
 
-footer{
-    bottom: 0;
-    height: 96px;
-    position: absolute;
-    width: 100%;
-}
+ 
 
-
-.partner{
-
- background: none repeat scroll 0 0 rgba(244, 179, 99, 0.9);
-    border-radius: 4px 4px 0 0;
-    color: #333333;
-    display: inline-block;
-    float: left;
-    height: 104px;
-    margin-left: 1%;
-    padding: 1%;
-    width: 60%;
-
-}
-
-.certificade.partner li {
-   float: left;
-    margin-left: 25px;
-    text-align: center;
-    cursor: pointer;
-}
 
 
 .certificade.partner li img.small{
@@ -240,20 +102,6 @@ footer{
 
 
 
-.message-content > ul {
- border-radius: 6px 0 0 6px;
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
-    color: rgba(255, 255, 255, 0.9);
-    margin: 24% 0 7% 7%;
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
-    filter: alpha(opacity=20);
-    opacity: 0.2;
-    padding: 1% 13% 1% 1%;
-    position: absolute;
-    right: -2px;
-    text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.7);
-}
-
 
 .message-content ul li:first-child {
     font-size: 20px;
@@ -275,12 +123,13 @@ footer{
     margin: 14px;
 }
 
-.text-message {
-    bottom: 112px;
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 20px;
-    margin-top: 80px;
-    position: absolute;
-    font-family: 'osansItalic';
-    right: 19px;
+
+/*-------------------------------------------------------------- RESPONSIVE*/
+
+
+ 
+
+ .certificade.partner > ul {
+    float: right;
+    padding: 0;
 }
