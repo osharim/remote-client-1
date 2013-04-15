@@ -1,0 +1,1 @@
+?v=<?php echo $app_version; ?>
