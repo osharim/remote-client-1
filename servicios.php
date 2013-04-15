@@ -21,6 +21,16 @@
 			
 	<?php include "menu.php"; ?>
 
+	<section class="message-content"	>
+		<ul>
+			
+			<li>Experimenta los elementos naturales</li>
+			<li>Gimnacio , Hidroterapia , Masajes , Exfoliaciones <br>
+			 Envolturas corprotales y Tratamientos faciales.<br>	
+		 
+	</ul>
+		 
+	</section>
 
 	
 

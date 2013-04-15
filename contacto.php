@@ -21,7 +21,21 @@
 			
 	<?php include "menu.php"; ?>
 
-
+		<section class="message-content"	>
+		<ul>
+			
+			<li>Localizada en punto para estar contigo.</li>
+			<li>Ubicados en el Blvd. Kukulcán km.16.5, Zona <br>
+			 Hotelera. Cancún Quintana Roo, C.P77500<br>
+			 <br>
+ 
+			 spafacc@posadas.com
+			 Tel.52 (998) 881 42 44	
+			 
+		 
+	</ul>
+		 
+	</section>
 	
 
 	<?php include "footer.php"; ?>

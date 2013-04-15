@@ -22,7 +22,17 @@
 			
 	<?php include "menu.php"; ?>
 
-
+		<section class="message-content"	>
+		<ul>
+			
+			<li>Camina en una atmósfera natural</li>
+			<li>Regadera de presión, jacuzzi , Sauna , Área de <br>
+			 casilleros, Vapor y Laguna de Inmersión<br>	
+			 
+		 
+	</ul>
+		 
+	</section>
 	
 
 	<?php include "footer.php"; ?>

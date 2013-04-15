@@ -34,8 +34,11 @@
 			
 	<?php include "menu.php"; ?>
 
-
 	
+	<div class="text-message">
+		<img src="img/resources/Texto_CancunMexico.png" alt="">
+		 
+	</div>
 
 	<?php include "footer.php"; ?>
 

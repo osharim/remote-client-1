@@ -1,7 +1,11 @@
+@import url(font.css);
+
+
+
 body{
 
 	font-size: 12px;
-    font-family: 'helvetica';
+    font-family: 'osanslight';
     overflow:hidden;
 }
 
@@ -97,7 +101,7 @@ background: url("../img/resources/Logotipo_Miiluma.png") no-repeat scroll 0 0 tr
 .menu  ul {
  background: url("../img/resources/Menu_Linea.png") no-repeat scroll center bottom / 100% auto transparent;
     float: right;
-    padding-bottom: 74px;
+    padding-bottom: 52px;
     padding-top: 57px;
 }
 
@@ -150,11 +154,10 @@ background: url("../img/resources/Logotipo_Miiluma.png") no-repeat scroll 0 0 tr
 
 }
 
-.message{
-
-
+.spacing-icon{
+    margin-right: 50px;
 }
-
+ 
 footer nav{
 
 
@@ -203,4 +206,55 @@ footer{
 
 .certificade.partner > ul {
     float: right;
+
+}
+
+/*----------------------- MENSAJES BLANCOS --------------------------------------------------footer.php*/
+
+
+
+
+
+.message-content > ul {
+ background: none repeat scroll 0 0 rgba(216, 90, 39, 0.8);
+    border-radius: 6px 0 0 6px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.9);
+    margin: 24% 0 7% 7%;
+    opacity: 0.2;
+    padding: 1% 13% 1% 1%;
+    position: absolute;
+    right: -2px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+
+.message-content ul li:first-child {
+    font-size: 20px;
+  
+}
+
+.message-content li {
+    font-family: 'SemiboldItalic';
+    margin: 14px;
+}
+
+.message-content li:last-child {
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 23px;
+}
+
+.message-content li {
+    margin: 14px;
+}
+
+.text-message {
+    bottom: 112px;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 20px;
+    margin-top: 80px;
+    position: absolute;
+    font-family: 'osansItalic';
+    right: 19px;
 }
