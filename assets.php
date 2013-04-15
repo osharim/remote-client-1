@@ -12,10 +12,10 @@ $app_version = '1.1';
 <![endif]–> 
 
 
-	<script src="js/jquery.js"></script>
-		<script src="js/modernizr.js"></script>
-	<script src="js/jloader.js"></script>
-	<script src="js/init_loader.js"></script>
+	<script src="js/jquery.js<?php include 'version.php' ?>"></script>
+		<script src="js/modernizr.js<?php include 'version.php' ?>"></script>
+	<script src="js/jloader.js<?php include 'version.php' ?>"></script>
+	<script src="js/init_loader.js<?php include 'version.php' ?>"></script>
 	<script src="js/app.js"></script>
 	<link rel="stylesheet" href="css/normalize.css<?php include 'version.php' ?>">
 	<link rel="stylesheet" href="css/style.css<?php include 'version.php' ?>"/>

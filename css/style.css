@@ -97,6 +97,12 @@ background: url("../img/resources/Logotipo_Miiluma.png") no-repeat scroll 0 0 tr
     float: left;
 }
 
+.pos_init_logo{
+     left:50% ;
+     top: 15%;
+    margin-left: -230px;
+    position: absolute;
+}
 
 .menu  ul {
  background: url("../img/resources/Menu_Linea.png") no-repeat scroll center bottom / 100% auto transparent;
