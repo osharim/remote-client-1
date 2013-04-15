@@ -1,4 +1,8 @@
+<?php
 
+$app_version = '1.1';
+
+?>
 <meta charset="UTF-8">
 	 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
@@ -13,3 +17,5 @@
 	<script src="js/jloader.js"></script>
 	<script src="js/init_loader.js"></script>
 	<script src="js/app.js"></script>
+	<link rel="stylesheet" href="css/normalize.css<?php include 'version.php' ?>">
+	<link rel="stylesheet" href="css/style.css<?php include 'version.php' ?>"/>
