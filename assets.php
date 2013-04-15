@@ -1,14 +1,15 @@
 
 <meta charset="UTF-8">
-<meta http-equiv="Expires" content="0">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-<meta http-equiv="Last-Modified" content="0">
+<!-- Estupido Explorer -->
+ <!–[if lt IE 9]>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]–> 
 
-<meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
-
-<meta http-equiv="Pragma" content="no-cache">
 
 	<script src="js/jquery.js"></script>
+		<script src="js/modernizr.js"></script>
 	<script src="js/jloader.js"></script>
 	<script src="js/init_loader.js"></script>
 	<script src="js/app.js"></script>

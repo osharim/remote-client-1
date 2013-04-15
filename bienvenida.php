@@ -6,15 +6,15 @@
 
 
 <!doctype html>
-<html lang="en">
+<html class="no-js" lang="en" >
 <head>
 	<meta charset="UTF-8">
 	<title>Miiluma | Bienvenida</title>
-</head>
 
 	<?php include "assets.php"; ?>
 	<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css?v=1.0"/>
+</head>
 
 <body>
 	<section class="main bienvenida">
