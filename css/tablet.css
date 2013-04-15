@@ -1,0 +1,42 @@
+ 
+
+/*-------------------------------------------------------------------------------------------------*/
+
+.main.inicio{
+
+
+	background:url("../img/resources/Bg_inicio.jpg") no-repeat scroll 0 -91px / 109% auto transparent;
+}
+
+.main.bienvenida{
+    background: url("../img/resources/Bg_bienvenida.jpg") no-repeat scroll 0 -91px / 109% auto transparent;
+
+}
+
+.main.contacto{
+    background: url("../img/resources/Bg_contacto.jpg") no-repeat scroll 0 -91px / 109% auto transparent;
+
+}
+
+.main.cotizacion{
+    background: url("../img/resources/Bg_cotizacion.jpg") no-repeat scroll 0 -91px / 109% auto transparent;
+
+}
+
+.main.instalaciones{
+    background: url("../img/resources/Bg_instalaciones.jpg") no-repeat scroll 0 -91px / 109% auto transparent;
+
+}
+
+.main.servicios{
+    background: url("../img/resources/Bg_servicios.jpg") no-repeat scroll 0 -91px / 109% auto transparent;
+
+}
+
+.main.paquetes{
+    background: url("../img/resources/Bg_paquetes.jpg") no-repeat scroll 0 -91px / 109% auto transparent;
+
+}
+ 
+
+/* ---------------------------------------------------------------- bg sections*/
