@@ -98,26 +98,21 @@ body{
 
 
 .message-content > ul {
-  background: -webkit-linear-gradient(left center , rgba(0, 0, 0, 0.3), transparent) repeat scroll 0 0 transparent;
-    background: -moz-linear-gradient(left center , rgba(0, 0, 0, 0.3), transparent) repeat scroll 0 0 transparent;
-    background: -o-linear-gradient(left center , rgba(0, 0, 0, 0.3), transparent) repeat scroll 0 0 transparent;
-    background: -ms-linear-gradient(left center , rgba(0, 0, 0, 0.3), transparent) repeat scroll 0 0 transparent;
-    background: linear-gradient(left center , rgba(0, 0, 0, 0.3), transparent) repeat scroll 0 0 transparent;
+ background: url("../img/resources/All_Fondo_Textos.png") repeat-y scroll 0 0 transparent;
     color: rgba(255, 255, 255, 0.9);
     margin: 24% 0 7% 7%;
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
-    filter: alpha(opacity=20);
     opacity: 0.2;
     padding: 1% 13% 1% 1%;
     position: absolute;
     right: -2px;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
-}
 
+}
 
 footer {
     bottom: 0;
     height: auto;
+    -ms-overflow-y: auto;
     overflow-y: auto;
     position: absolute;
     width: 100%;
