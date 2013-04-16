@@ -120,11 +120,11 @@ footer {
 
 
 .message_nav {
-background: none repeat scroll 0 0 rgba(216, 90, 39, 0.9);
+ background: none repeat scroll 0 0 rgba(216, 90, 39, 0.9);
     color: white;
     font-weight: bold;
-    height: auto;
-    padding: 3% 3% 7%;
+    height: 134px;
+    padding: 3%;
     width: 32%;
 }
 

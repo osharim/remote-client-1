@@ -189,9 +189,8 @@ for (var i = 0; qLimages.length > i; i++) {
                 color: qLoptions.barColor
             }).appendTo(qLoverlay);
 
-          $(qLoverlay).append("<div class='   '><img class='pos_init_logo' src='img/resources/Logotipo_Miiluma.png'></div>").css({
- 
-          });
+     
+        
 
         }
     };

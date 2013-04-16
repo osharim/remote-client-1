@@ -49,7 +49,7 @@ border-bottom: 3px solid #D85A27;
 .main.inicio{
 
 
-	background:url("../img/resources/Bg_inicio.jpg") no-repeat scroll 0 -91px / 109% auto transparent;
+    background:url("../img/resources/Bg_inicio.jpg") no-repeat scroll 0 -91px / 109% auto transparent;
 }
 
 .main.bienvenida{
@@ -124,8 +124,8 @@ footer {
  background: none repeat scroll 0 0 rgba(216, 90, 39, 0.9);
     color: white;
     font-weight: bold;
-    height: auto;
-    padding: 3% 3% 4%;
+    height: 76px;
+    padding: 3%;
     width: 32%;
 }
 
@@ -139,10 +139,11 @@ footer {
     width: 62%;
 }
 
+
 .certificade.partner li {
-cursor: pointer;
+    cursor: pointer;
     float: left;
-    margin-left: 4px;
+    margin-left: 27px;
     text-align: center;
 }
 
@@ -166,4 +167,10 @@ cursor: pointer;
     margin-top: 80px;
     position: absolute;
     right: 19px;
+}
+
+
+.certificade.partner > ul {
+    float: right;
+    padding: 0 17px 0 0 !important;
 }
