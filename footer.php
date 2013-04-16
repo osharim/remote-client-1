@@ -8,7 +8,7 @@
 	<nav class="certificade partner">
 		
 	<ul>
-		<li><img width="180"  class="normal spacing-icon" src="img/resources/LogoCertificadoRegalo.png" alt="Certificado!"></li>
+		<li><img width="120"  class="normal spacing-icon" src="img/resources/Footer_icon_Membresias.png" alt="Certificado!"></li>
 		<li><img  width="180" class="normal  spacing-icon" src="img/resources/LogoEMail.png" alt="Email"></li>
 
 		<li><img width="20" class="small" src="img/resources/LogoFacebook.png" alt="Facebook"></li>
