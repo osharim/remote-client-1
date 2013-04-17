@@ -2,7 +2,7 @@
 body{
 
 	font-size: 12px;
-    font-family: 'osanslight';
+    font-family: 'helvetica';
     overflow:hidden;
 }
 
@@ -22,8 +22,10 @@ body{
  
 .menu ul {
     
- float: right;
+  
+    float: right;
     margin-top: 93px !important;
+ 
     width: 97%;
 }
 
@@ -38,8 +40,7 @@ body{
 
 
 .menu ul li a:hover , .button_actived{
-
-  border-bottom: 3px solid #CC5A2C;
+ 
     color: #CC5A2C !important;
     font-weight: bold;
     padding-bottom: 12px;
@@ -99,11 +100,11 @@ body{
 
 
 .message-content > ul {
- background: url("../img/resources/All_Fondo_Textos.png") repeat-y scroll 0 0 transparent;
+background: url("../img/resources/All_Fondo_Textos.png") repeat-y scroll 0 0 transparent;
     color: rgba(255, 255, 255, 0.9);
-    margin: 24% 0 7% 7%;
+    margin: 10% 0 9% 7%;
     opacity: 0.2;
-    padding: 1% 13% 1% 1%;
+    padding: 13% 14% 36% 1%;
     position: absolute;
     right: -2px;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
@@ -151,7 +152,7 @@ footer {
 
 
 .menu {
-  background: url("../img/resources/Bg_texto_menu.png") repeat scroll 0 0 transparent;
+    background: url("../img/resources/Bg_texto_menu.png") repeat scroll 0 30%, url("../img/resources/Menu_Linea.png") no-repeat scroll 0 166% transparent;
     float: right;
 }
 
